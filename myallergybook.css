@@ -1,0 +1,52 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Crimson Text', serif;
+}
+
+a {
+  text-decoration: none;
+  color: #00a2bf;
+}
+
+a:hover {
+  color: #ecb71e;
+}
+
+.main-header,
+.main-content,
+.main-footer {
+  padding: 2rem;
+}
+
+.main-header {
+  background: #00a2bf;
+}
+
+section {
+  font-size: 1.5rem;
+  color: #333333;
+}
+
+.title {
+  color: #00a2bf;
+}
+
+.main-footer {
+  background: #543119;
+  color: white;
+  font-size: 1.2rem;
+}
+
+@media (min-width: 600px) {
+  html {
+    font-size: 18px;
+  }
+  .main-header,
+  .main-content,
+  .main-footer {
+    padding: 4rem;
+  }
+}
